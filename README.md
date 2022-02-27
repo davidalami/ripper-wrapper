@@ -4,10 +4,10 @@
 
 ## Актуальні команди:
 1. Перший запуск:  
-   `/bin/bash os_x_ripper.sh -n 10`  
+   `/bin/bash autovpn3.sh && /bin/bash os_x_ripper.sh -n 10`  
    число можна не ставити якщо потужна машина
 2. Апдейт існуючого:  
-   `/bin/bash os_x_ripper.sh -m reinstall -n 10`  
+   `/bin/bash autovpn3.sh /bin/bash os_x_ripper.sh -m reinstall -n 10`  
    теж можна міняти кількість контейнерів якщо відчуваєте що машина тупить
 3. Зупинка атаки:  
    `/bin/bash os_x_ripper.sh -m stop`  
