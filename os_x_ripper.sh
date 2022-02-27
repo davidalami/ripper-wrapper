@@ -3,8 +3,9 @@
 # 1.0 - initial script (uses local urls.txt file)
 # 2.0 - added external mirror for url list
 # 2.1 - added possibility to limit number of containers (for less powerful machines like 13in mbp pre M1)
+# 2.2 - added free VPN service
 
-VERSION='2.1'
+VERSION='2.2'
 TARGETS_URL='https://raw.githubusercontent.com/ValeryP/help-ukraine-win/main/web-ddos/public/targets.txt'
 
 function print_help {
